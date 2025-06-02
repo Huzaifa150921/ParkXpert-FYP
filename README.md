@@ -1,16 +1,34 @@
-# parkxpert
+# ParkXpert 🚗🅿️
 
-A new Flutter project.
+**ParkXpert** is a Flutter-based mobile app that helps users **search for parking spots** and allows parking owners to **manage their parking spaces** easily.
+
+---
+
+## Features
+
+- **User Mode:**  
+  - Search for available parking spots nearby  
+  - View parking details and locations on a map  
+
+- **Owner Mode:**  
+  - Set parking prices and availability  
+  - Make parking spots live for users to book  
+  - Manage and update parking info in real-time  
+
+---
+
+## Tech Stack
+
+- Flutter & Dart  
+- Google Maps API (or other map service)  
+- Backend API for parking management  
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/Huzaifa150921/ParkXpert.git
+cd ParkXpert
+flutter pub get
+flutter run
